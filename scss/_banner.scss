@@ -1,0 +1,37 @@
+.container-banner {
+	display: flex;
+	height: 80vh;
+	flex-direction: column;
+	justify-content: center;
+	width: 50%;
+}
+.banner-subtitle,
+.banner-title,
+.banner-info {
+	margin: 30px 0 0 0;
+}
+
+.banner-subtitle {
+	color: #ce0233;
+}
+.banner-title {
+	color: #fff;
+	padding: 0;
+	font-size: 3em;
+	line-height: 1em;
+	span {
+		color: #ce0233;
+	}
+}
+.banner-info {
+	color: #fff;
+	margin-bottom: 1em;
+}
+.banner-lear {
+	margin-right: 1em;
+}
+.banner-button {
+	background-color: #fff;
+	color: #ce0233;
+	font-weight: bold;
+}

@@ -1,0 +1,35 @@
+.container-main {
+	display: flex;
+	border-top: 2px solid #ce0233;
+}
+.main-img {
+	display: block;
+	height: auto;
+	img {
+		width: 100%;
+		margin: 2em 0;
+	}
+}
+.main-info {
+	margin: 2em 0 2em 2em;
+}
+.main-title {
+	color: #fff;
+	font-size: 2em;
+}
+.main-subtitle {
+	color: tomato;
+	padding: 1em 0;
+}
+.main-detail {
+	margin: 1em 0;
+	color: #eee;
+}
+.main-button {
+	align-self: flex-end;
+}
+.button-show {
+	margin-left: 1em;
+	background: rgba($color: #000000, $alpha: 0);
+	border: 1px solid #ce0233;
+}

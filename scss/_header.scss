@@ -1,0 +1,56 @@
+.sub-container {
+	max-width: 1200px;
+	width: 90%;
+	margin: auto;
+	position: relative;
+	//background-color: red;
+}
+.container-header {
+	display: flex;
+	justify-content: space-between;
+	margin: 0;
+	padding: 1.5em 0;
+	align-items: baseline;
+}
+
+// MENU NAVEGACION
+.container-nav {
+	margin-right: 2em;
+}
+.subcontainer-nav {
+	display: flex;
+	list-style: none;
+}
+.link-nav {
+	text-decoration: none;
+}
+.item-nav {
+	color: #fff;
+	text-decoration: none;
+	padding: 0 1em;
+}
+
+.item-nav:hover {
+	padding-bottom: 0.5em;
+	border-bottom: 1px solid #ce0233;
+	opacity: 0.8;
+}
+// ELEMENTOS HEADER
+.container-title {
+	color: #ce0233;
+	//background-color: teal;
+
+	span {
+		color: #fff;
+	}
+}
+
+.button {
+	background-color: #ce0233;
+	border: 0;
+	border-radius: 1em;
+	padding: 0.5em 0.7em;
+	color: #ffff;
+	font-size: 14px;
+	cursor: pointer;
+}
